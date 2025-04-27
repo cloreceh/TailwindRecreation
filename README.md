@@ -1,2 +1,2 @@
-# Static HTML Boilerplate
-Basic HTML, CSS, and JavaScript setup for a simple website.
+# Simple Tailwind Website
+Recreation of Dribbble layout using Tailwind

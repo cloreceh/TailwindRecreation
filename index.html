@@ -1,19 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
-    <link rel="stylesheet" href="screen.css">
-  </head>
-  <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
-    <script src="index.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>Dribbble Layout Recreation - Tailwind</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+  <div class="max-w-7xl mx-auto p-6">
+
+    <div class="flex flex-wrap items-center justify-between mb-8 gap-4">
+      
+      <div>
+        <button class="px-4 py-2 rounded-full font-medium text-gray-700 bg-gray-200 border border-gray-300">Popular</button>
+      </div>
+
+      <div class="flex flex-wrap justify-center gap-4 flex-grow">
+        <button class="px-4 py-2 rounded-full font-medium text-gray-700 hover:bg-gray-200">Discover</button>
+        <button class="px-4 py-2 rounded-full font-medium text-gray-700 hover:bg-gray-200">Animation</button>
+        <button class="px-4 py-2 rounded-full font-medium text-gray-700 hover:bg-gray-200">Branding</button>
+        <button class="px-4 py-2 rounded-full font-medium text-gray-700 hover:bg-gray-200">Illustration</button>
+        <button class="px-4 py-2 rounded-full font-medium text-gray-700 hover:bg-gray-200">Mobile</button>
+        <button class="px-4 py-2 rounded-full font-medium text-gray-700 hover:bg-gray-200">Print</button>
+      </div>
+
+      <div>
+        <button class="px-5 py-2 rounded-full font-medium text-gray-700 bg-gray-200 border border-gray-300">Filters</button>
+      </div>
+
+    </div>
+
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+      <div class="bg-transparent">
+        <img src="image1.png" alt="Image 1" class="rounded-lg object-cover h-72 w-full">
+        <div class="flex items-center justify-between mt-2 text-sm">
+          <div class="flex items-center gap-2">
+            <img src="profile1.png" alt="Profile 1" class="w-6 h-6 rounded-full object-cover">
+            <span class="text-gray-700">Sieg Media</span>
+          </div>
+          <div class="text-gray-500">
+            💬 193 &nbsp; ❤️ 67.4k
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-transparent">
+        <img src="image2.png" alt="Image 2" class="rounded-lg object-cover h-72 w-full">
+        <div class="flex items-center justify-between mt-2 text-sm">
+          <div class="flex items-center gap-2">
+            <img src="profile2.png" alt="Profile 2" class="w-6 h-6 rounded-full object-cover">
+            <span class="text-gray-700">Orman Clark</span>
+          </div>
+          <div class="text-gray-500">
+            💬 98 &nbsp; ❤️ 24.3k
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-transparent">
+        <img src="image3.png" alt="Image 3" class="rounded-lg object-cover h-72 w-full">
+        <div class="flex items-center justify-between mt-2 text-sm">
+          <div class="flex items-center gap-2">
+            <img src="profile3.png" alt="Profile 3" class="w-6 h-6 rounded-full object-cover">
+            <span class="text-gray-700">Jordon Cheung</span>
+          </div>
+          <div class="text-gray-500">
+            💬 176 &nbsp; ❤️ 57.1k
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-transparent">
+        <img src="image4.png" alt="Image 4" class="rounded-lg object-cover h-72 w-full">
+        <div class="flex items-center justify-between mt-2 text-sm">
+          <div class="flex items-center gap-2">
+            <img src="profile4.png" alt="Profile 4" class="w-6 h-6 rounded-full object-cover">
+            <span class="text-gray-700">Aldo Crusher</span>
+          </div>
+          <div class="text-gray-500">
+            💬 65 &nbsp; ❤️ 6.7k
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-transparent">
+        <img src="image5.png" alt="Image 5" class="rounded-lg object-cover h-72 w-full">
+        <div class="flex items-center justify-between mt-2 text-sm">
+          <div class="flex items-center gap-2">
+            <img src="profile5.png" alt="Profile 5" class="w-6 h-6 rounded-full object-cover">
+            <span class="text-gray-700">Canto</span>
+          </div>
+          <div class="text-gray-500">
+            💬 12 &nbsp; ❤️ 4.1k
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-transparent">
+        <img src="image6.png" alt="Image 6" class="rounded-lg object-cover h-72 w-full">
+        <div class="flex items-center justify-between mt-2 text-sm">
+          <div class="flex items-center gap-2">
+            <img src="profile6.png" alt="Profile 6" class="w-6 h-6 rounded-full object-cover">
+            <span class="text-gray-700">Ramy Wafaa</span>
+          </div>
+          <div class="text-gray-500">
+            💬 513 &nbsp; ❤️ 143k
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
 </html>
